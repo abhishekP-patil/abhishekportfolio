@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div style={{width: '100%',height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
         <div style={{width: '100%', maxWidth: '1440px', height: '100%', display:'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <div style={{marginTop: '120px', width: '100%', height: '600px', display:'block', justifyContent: 'space-between', alignItems: 'center'}}>
+            <div style={{marginTop: '10%', width: '100%', height: '600px', display:'block', justifyContent: 'space-between', alignItems: 'center'}}>
                 <img src={process.env.PUBLIC_URL + '/assets/images/ezgif-2-4200ec037a.gif'} alt="hello" style={{marginLeft: '5%',width: '80%', height: 'auto'}}/>
                 <div style={{marginTop: '40px',width: 'auto', height: 'auto', display:'block'}}>
                     <div className="heading-div">
