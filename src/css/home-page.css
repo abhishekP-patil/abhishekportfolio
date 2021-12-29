@@ -1,0 +1,25 @@
+.heading-div{
+    margin-left: 6.5%;
+    display: flex; 
+    flex-wrap: wrap;
+    width: auto; 
+    height: auto;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 100px;
+}
+
+.text-div{
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    display: flex; 
+    flex-wrap: wrap;
+    width: auto; 
+    height: auto; 
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 835px) {
+    .heading-div{
+        font-size: 50px;
+    }
+  }
