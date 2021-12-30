@@ -10,13 +10,13 @@ function MainNav({currentPage, setCurrentPage}) {
             <div className="nav-name" style={{position:'absolute', left:'50px'}}>
                 ABHISHEK PATIL
             </div>
-            <Link to="abhishekportfolio/projects" style={{textDecoration: 'none'}}>
+            <Link to="/projects" style={{textDecoration: 'none'}}>
             <div className="nav-element" style={{marginRight: '60px', color: `${currentPage === 'abhishekportfolio/projects' ? 'black' : '#5A00ED'}`}} onClick={() => setCurrentPage('abhishekportfolio/projects')}>
                 PROJECTS
                 <div className="nav-black-bar" style={{visibility: `${currentPage === 'abhishekportfolio/projects' ? 'visible' : 'hidden'}`}}/>
             </div>
             </Link>
-            <Link to="/abhishekportfolio" style={{textDecoration: 'none'}}>
+            <Link to="/" style={{textDecoration: 'none'}}>
             <div className="nav-element" style={{color: `${currentPage === '/abhishekportfolio' ? 'black' : '#5A00ED'}`,}}  onClick={() => setCurrentPage('/abhishekportfolio')}>
                 ABOUT
                 <div className="nav-black-bar" style={{visibility: `${currentPage === '/abhishekportfolio' ? 'visible' : 'hidden'}`}}/>

@@ -13,12 +13,12 @@ function App() {
   const [currentPage, setCurrentPage] = useState();
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/abhishekportfolio'>
       <div>
         <MainNav currentPage={currentPage} setCurrentPage={setCurrentPage}/>
         <Routes>
-          <Route path='/abhishekportfolio' exact element={<HomePage currentPage={currentPage}/>}/>
-          <Route path='abhishekportfolio/projects' exact element={<ProjectsPage />}/>
+          <Route path='/' exact element={<HomePage currentPage={currentPage}/>}/>
+          <Route path='/projects' exact element={<ProjectsPage />}/>
         </Routes>
       </div>
     </BrowserRouter>
