@@ -2,7 +2,7 @@ import React from "react";
 import { ImCross } from "react-icons/im";
 import "../css/project-modals.css";
 
-function LastStand({ setModalShow }) {
+function JanKenPon({ setModalShow }) {
   return (
     <>
       <div
@@ -13,12 +13,12 @@ function LastStand({ setModalShow }) {
       >
         <div className="heading-div project-heading" style={{ color: "white" }}>
           <span>
-            <span style={{ color: "#00f1f2" }}>L</span>
-            ast&nbsp;
+            <span style={{ color: "#00f1f2" }}>J</span>
+            an&nbsp;
           </span>
           <span>
-            <span style={{ color: "#00f1f2" }}>S</span>
-            tand
+            <span style={{ color: "#00f1f2" }}>K</span>
+            en
           </span>
         </div>
         <div
@@ -217,4 +217,4 @@ function LastStand({ setModalShow }) {
   );
 }
 
-export default LastStand;
+export default JanKenPon;

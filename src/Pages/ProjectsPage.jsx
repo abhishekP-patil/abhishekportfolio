@@ -6,9 +6,11 @@ import { Modal } from "react-bootstrap";
 
 import ProjectCard from "../ReusableComponents/ProjectCard";
 import LastStand from "../Modals/LastStand";
+import JanKenPon from "../Modals/JanKenPon";
 
 function ProjectsPage() {
   const [showModal, setShowModal] = useState(false);
+  const [modalContentString, setModalContentString] = useState(null);
 
   return (
     <>
@@ -24,10 +26,15 @@ function ProjectsPage() {
             borderRadius: "50px 50px 0px 0px",
           }}
         >
-          <LastStand hideModal={setShowModal} />
+          {modalContentString === "last-stand" ? (
+            <LastStand setModalShow={setShowModal} />
+          ) : (
+            modalContentString === "jan-ken-pon" && (
+              <JanKenPon setModalShow={setShowModal} />
+            )
+          )}
         </div>
       </Modal>
-
       <div
         style={{
           width: "100%",
@@ -88,6 +95,8 @@ function ProjectsPage() {
               }
               title="Last Stand"
               setShowModal={setShowModal}
+              setModalContentString={setModalContentString}
+              contentString={"last-stand"}
             />
             <ProjectCard
               img={
@@ -96,6 +105,8 @@ function ProjectsPage() {
               }
               title="Jan Ken Pon"
               setShowModal={setShowModal}
+              setModalContentString={setModalContentString}
+              contentString={"jan-ken-pon"}
             />
           </div>
         </div>
