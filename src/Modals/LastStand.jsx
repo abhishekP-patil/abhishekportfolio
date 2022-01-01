@@ -8,45 +8,31 @@ function LastStand({ hideModal }) {
       <div
         className="modal-content-container"
         style={{
-          width: "100%",
-          height: "100%",
           backgroundColor: "black",
-          borderRadius: "50px 50px 0px 0px",
-          paddingTop: "50px",
         }}
       >
-        <div style={{ display: "flex", flexWrap: "nowrap" }}>
-          <div
-            className="heading-div"
-            style={{
-              fontSize: "80px",
-              color: "white",
-              alignSelf: "flex-start",
-              marginRight: "auto",
-            }}
-          >
-            <span>
-              <span style={{ color: "#00f1f2" }}>L</span>
-              ast&nbsp;
-            </span>
-            <span>
-              <span style={{ color: "#00f1f2" }}>S</span>
-              tand
-            </span>
-          </div>
-          <div
-            style={{
-              marginLeft: "auto",
-              color: "white",
-              position: "absolute",
-              top: "20px",
-              right: "20px",
-            }}
-          >
-            <h3 onClick={() => hideModal(false)} style={{ cursor: "pointer" }}>
-              <ImCross />
-            </h3>
-          </div>
+        <div className="heading-div project-heading" style={{ color: "white" }}>
+          <span>
+            <span style={{ color: "#00f1f2" }}>L</span>
+            ast&nbsp;
+          </span>
+          <span>
+            <span style={{ color: "#00f1f2" }}>S</span>
+            tand
+          </span>
+        </div>
+        <div
+          style={{
+            marginLeft: "auto",
+            color: "white",
+            position: "absolute",
+            top: "20px",
+            right: "20px",
+          }}
+        >
+          <h3 onClick={() => hideModal(false)} style={{ cursor: "pointer" }}>
+            <ImCross />
+          </h3>
         </div>
         <div className="introduction" style={{ color: "#00f1f2" }}>
           Last Stand is a hyper-casual smartphone game where the player play to
@@ -77,10 +63,14 @@ function LastStand({ hideModal }) {
           </span>
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
-          <span style={{ color: "#00f1f2" }}>I</span>
-          ntroductory&nbsp;
-          <span style={{ color: "#00f1f2" }}>C</span>
-          utscene
+          <span>
+            <span style={{ color: "#00f1f2" }}>I</span>
+            ntroductory&nbsp;
+          </span>
+          <span>
+            <span style={{ color: "#00f1f2" }}>C</span>
+            utscene
+          </span>
         </div>
         <div className="project-sub-container">
           <img
@@ -99,8 +89,10 @@ function LastStand({ hideModal }) {
           </div>
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
-          <span style={{ color: "#00f1f2" }}>G</span>
-          ameplay&nbsp;
+          <span>
+            <span style={{ color: "#00f1f2" }}>G</span>
+            ameplay&nbsp;
+          </span>
         </div>
         <div className="project-sub-container">
           <img
@@ -118,8 +110,10 @@ function LastStand({ hideModal }) {
           </div>
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
-          <span style={{ color: "#00f1f2" }}>T</span>
-          utorial&nbsp;
+          <span>
+            <span style={{ color: "#00f1f2" }}>T</span>
+            utorial&nbsp;
+          </span>
         </div>
         <div className="project-sub-container">
           <img
@@ -137,8 +131,10 @@ function LastStand({ hideModal }) {
           </div>
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
-          <span style={{ color: "#00f1f2" }}>C</span>
-          ontrols&nbsp;
+          <span>
+            <span style={{ color: "#00f1f2" }}>C</span>
+            ontrols&nbsp;
+          </span>
         </div>
         <div className="project-sub-container">
           <img
@@ -155,8 +151,10 @@ function LastStand({ hideModal }) {
           </div>
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
-          <span style={{ color: "#00f1f2" }}>S</span>
-          core&nbsp;
+          <span>
+            <span style={{ color: "#00f1f2" }}>S</span>
+            core&nbsp;
+          </span>
         </div>
         <div className="project-sub-container">
           <img
@@ -172,8 +170,10 @@ function LastStand({ hideModal }) {
           </div>
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
-          <span style={{ color: "#00f1f2" }}>L</span>
-          ives&nbsp;
+          <span>
+            <span style={{ color: "#00f1f2" }}>L</span>
+            ives&nbsp;
+          </span>
         </div>
         <div className="project-sub-container">
           <img
@@ -190,9 +190,14 @@ function LastStand({ hideModal }) {
           </div>
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
-          <span style={{ color: "#00f1f2" }}>G</span>
-          ame&nbsp;<span style={{ color: "#00f1f2" }}>O</span>
-          ver&nbsp;
+          <span>
+            <span style={{ color: "#00f1f2" }}>G</span>
+            ame&nbsp;
+          </span>
+          <span>
+            <span style={{ color: "#00f1f2" }}>O</span>
+            ver&nbsp;
+          </span>
         </div>
         <div className="project-sub-container">
           <img
