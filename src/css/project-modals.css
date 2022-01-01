@@ -1,45 +1,86 @@
-.introduction{
-    margin-left: 6.5%;
-    margin-right: 6.5%;
-    display: flex; 
-    flex-wrap: wrap;
-    width: auto; 
-    height: auto; 
-    font-family: 'Roboto', sans-serif;
-    margin-top: 10px;
-    font-size: 20px;
+.introduction {
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
-.project-subtitles{
-    margin-left:6.7%; 
-    margin-right: 6.7%;
-    margin-top: 25px; 
-    font-family: 'Josefin Sans', sans-serif; 
-    letter-spacing: 0.05em; 
-    font-size: 50px; 
+.role-duration-key {
+  margin-left: 6.5%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.05rem;
 }
 
-.project-sub-container{
-    width: auto; 
-    height: auto; 
-    margin-left: 6.7%; 
-    margin-right: 6.7%; 
-    display: flex; 
-    margin-top: 10px; 
-    flex-wrap: wrap;
+.role-duration-value {
+  margin-right: 6.5%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.05rem;
+  font-weight: bolder;
 }
 
-.project-sub-image-mobile{
+.project-subtitles {
+  margin-left: 6.7%;
+  margin-right: 6.7%;
+  margin-top: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 50px;
+}
+
+.project-sub-container {
+  width: auto;
+  height: auto;
+  margin-left: 6.7%;
+  margin-right: 6.7%;
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.project-sub-image-mobile {
+  width: 100%;
+  max-width: 360px;
+  margin-right: 6.7%;
+  height: 800px;
+  margin-bottom: 20px;
+}
+
+.project-sub-text {
+  align-self: center;
+  text-align: justify;
+  width: 50%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.modal-content-container {
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .project-sub-text {
     width: 100%;
-    max-width: 360px; 
-    margin-right: 6.7% ;
-    height: 800px; 
-    margin-bottom: 20px;
-}
+  }
 
-.project-sub-text{
-    align-self: center; 
-    width: 50%;
-    font-size: 20px; 
-    font-family: 'Roboto', sans-serif; 
+  .project-sub-container {
+    align-content: center;
+  }
+
+  .project-sub-image-mobile {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
