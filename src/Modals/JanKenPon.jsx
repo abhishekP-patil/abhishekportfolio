@@ -18,7 +18,11 @@ function JanKenPon({ setModalShow }) {
           </span>
           <span>
             <span style={{ color: "gray" }}>K</span>
-            en
+            en&nbsp;
+          </span>
+          <span>
+            <span style={{ color: "gray" }}>P</span>
+            on&nbsp;
           </span>
         </div>
         <div

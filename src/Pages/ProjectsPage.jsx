@@ -7,6 +7,7 @@ import { Modal } from "react-bootstrap";
 import ProjectCard from "../ReusableComponents/ProjectCard";
 import LastStand from "../Modals/LastStand";
 import JanKenPon from "../Modals/JanKenPon";
+import VRHangouts from "./VRHangouts";
 
 function ProjectsPage() {
   const [showModal, setShowModal] = useState(false);
@@ -28,9 +29,11 @@ function ProjectsPage() {
         >
           {modalContentString === "last-stand" ? (
             <LastStand setModalShow={setShowModal} />
+          ) : modalContentString === "jan-ken-pon" ? (
+            <JanKenPon setModalShow={setShowModal} />
           ) : (
-            modalContentString === "jan-ken-pon" && (
-              <JanKenPon setModalShow={setShowModal} />
+            modalContentString === "vr-hangouts" && (
+              <VRHangouts setModalShow={setShowModal} />
             )
           )}
         </div>
@@ -107,6 +110,16 @@ function ProjectsPage() {
               setShowModal={setShowModal}
               setModalContentString={setModalContentString}
               contentString={"jan-ken-pon"}
+            />
+            <ProjectCard
+              img={
+                process.env.PUBLIC_URL +
+                "/assets/images/thumbnails/VRHangouts.png"
+              }
+              title="VR Hangouts"
+              setShowModal={setShowModal}
+              setModalContentString={setModalContentString}
+              contentString={"vr-hangouts"}
             />
           </div>
         </div>
