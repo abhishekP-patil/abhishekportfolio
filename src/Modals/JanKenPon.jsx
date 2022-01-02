@@ -64,15 +64,14 @@ function JanKenPon({ setModalShow }) {
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
           <span>
-            <span style={{ color: "gray" }}>G</span>
-            ameplay&nbsp;
+            <span style={{ color: "gray" }}>C</span>
+            oncept&nbsp;
           </span>
         </div>
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/assets/images/jankenpon/homescreen.jpeg"
+              process.env.PUBLIC_URL + "/assets/images/jankenpon/homescreen.gif"
             }
             className="project-sub-image-mobile"
           />
@@ -88,22 +87,26 @@ function JanKenPon({ setModalShow }) {
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
           <span>
-            <span style={{ color: "gray" }}>C</span>
-            ontrols&nbsp;
+            <span style={{ color: "gray" }}>T</span>
+            utorial&nbsp;
           </span>
         </div>
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL + "/assets/images/jankenpon/controls.jpeg"
+              process.env.PUBLIC_URL + "/assets/images/jankenpon/controls.gif"
             }
             className="project-sub-image-mobile"
           />
           <div className="project-sub-text" style={{ color: "white" }}>
-            Tap on the icons at the bottom of the screen.
+            Rules of Rock Paper Scissors apply.
           </div>
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
+          <span>
+            <span style={{ color: "gray" }}>C</span>
+            ontrols and&nbsp;
+          </span>
           <span>
             <span style={{ color: "gray" }}>S</span>
             core&nbsp;
@@ -111,19 +114,19 @@ function JanKenPon({ setModalShow }) {
         </div>
         <div className="project-sub-container">
           <img
-            src={
-              process.env.PUBLIC_URL + "/assets/images/jankenpon/controls.jpeg"
-            }
+            src={process.env.PUBLIC_URL + "/assets/images/jankenpon/score.gif"}
             className="project-sub-image-mobile"
           />
           <div className="project-sub-text" style={{ color: "white" }}>
-            The score is shown at the center of the screen so that the player
-            does not have to look away from the action as this game can get
-            quite intense due to the increasing pace. Having the score in the
-            middle of the scrren does not hinder the gameplay as it focal point
-            of the action is in the lower half. Additionally the bright white
-            rocks, papers and scissors easily stand out over the gray of the
-            score,
+            Tap the icons lined on the bottom of the screen to choose between
+            rock, paper or scissor. You score everytime you counter with the
+            correct item.The score is shown at the center of the screen so that
+            the player does not have to look away from the action as this game
+            can get quite intense due to the increasing pace. Having the score
+            in the middle of the scrren does not hinder the gameplay as it focal
+            point of the action is in the lower half. Additionally the bright
+            white rocks, papers and scissors easily stand out over the gray of
+            the score,
           </div>
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
@@ -134,9 +137,7 @@ function JanKenPon({ setModalShow }) {
         </div>
         <div className="project-sub-container">
           <img
-            src={
-              process.env.PUBLIC_URL + "/assets/images/jankenpon/controls.jpeg"
-            }
+            src={process.env.PUBLIC_URL + "/assets/images/jankenpon/lives.gif"}
             className="project-sub-image-mobile"
           />
           <div className="project-sub-text" style={{ color: "white" }}>
@@ -156,7 +157,7 @@ function JanKenPon({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL + "/assets/images/jankenpon/gameover.jpeg"
+              process.env.PUBLIC_URL + "/assets/images/jankenpon/gameover.gif"
             }
             className="project-sub-image-mobile"
           />

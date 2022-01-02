@@ -87,15 +87,14 @@ function LastStand({ setModalShow }) {
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
           <span>
-            <span style={{ color: "#00f1f2" }}>G</span>
-            ameplay&nbsp;
+            <span style={{ color: "#00f1f2" }}>C</span>
+            oncept&nbsp;
           </span>
         </div>
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/homescreen.jpeg"
+              process.env.PUBLIC_URL + "/assets/images/laststand/homescreen.gif"
             }
             className="project-sub-image-mobile"
           />
@@ -115,7 +114,7 @@ function LastStand({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL + "/assets/images/laststand/tutorial.jpeg"
+              process.env.PUBLIC_URL + "/assets/images/laststand/tutorial.gif"
             }
             className="project-sub-image-mobile"
           />
@@ -135,7 +134,7 @@ function LastStand({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL + "/assets/images/laststand/controls.jpeg"
+              process.env.PUBLIC_URL + "/assets/images/laststand/controls.gif"
             }
             className="project-sub-image-mobile"
           />
@@ -153,10 +152,7 @@ function LastStand({ setModalShow }) {
         </div>
         <div className="project-sub-container">
           <img
-            src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/livesbrown.jpeg"
-            }
+            src={process.env.PUBLIC_URL + "/assets/images/laststand/score.gif"}
             className="project-sub-image-mobile"
           />
           <div className="project-sub-text" style={{ color: "white" }}>
@@ -172,10 +168,7 @@ function LastStand({ setModalShow }) {
         </div>
         <div className="project-sub-container">
           <img
-            src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/livesbrown.jpeg"
-            }
+            src={process.env.PUBLIC_URL + "/assets/images/laststand/lives.gif"}
             className="project-sub-image-mobile"
           />
           <div className="project-sub-text" style={{ color: "white" }}>
@@ -197,7 +190,7 @@ function LastStand({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL + "/assets/images/laststand/gameover.jpeg"
+              process.env.PUBLIC_URL + "/assets/images/laststand/gameover.gif"
             }
             className="project-sub-image-mobile"
           />
