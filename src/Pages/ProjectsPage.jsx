@@ -97,7 +97,7 @@ function ProjectsPage() {
             <ProjectCard
               img={
                 process.env.PUBLIC_URL +
-                "/assets/images/thumbnails/VRHangouts.png"
+                "/assets/images/vrhangouts/roomcreationmenu.png"
               }
               title="VR Hangouts"
               setShowModal={setShowModal}
