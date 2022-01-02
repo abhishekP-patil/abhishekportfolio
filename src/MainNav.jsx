@@ -97,6 +97,18 @@ function MainNav({ currentPage, setCurrentPage }) {
             }}
           />
         </a>
+        <a
+          className="nav-name"
+          href="mailto:abhishekppatil13@gmail.com"
+          style={{
+            position: "absolute",
+            right: "50px",
+            textDecoration: "none",
+            marginLeft: "60px",
+          }}
+        >
+          CONTACT ME
+        </a>
       </div>
     </div>
   );

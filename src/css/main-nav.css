@@ -15,9 +15,13 @@
   font-size: 16px;
   letter-spacing: 0.15em;
   font-style: normal;
-  color: #5a00ed !important;
+  color: #5a00ed;
   width: fit-content;
   height: 16px;
+}
+
+.main-nav a.nav-name:hover {
+  color: black !important;
 }
 
 .nav-black-bar {
