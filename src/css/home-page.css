@@ -15,8 +15,34 @@
   font-family: "Roboto", sans-serif;
 }
 
+.me-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  box-shadow: 0 0 20px #a389cf;
+}
+
+.about-me-text {
+  width: 70%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 30px;
+}
+
 @media (max-width: 1000px) {
   .heading-div {
     font-size: 50px;
+  }
+
+  .me-image {
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+
+  .about-me-text {
+    width: 100%;
+    margin-top: 0px;
   }
 }
