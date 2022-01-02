@@ -8,6 +8,7 @@ import ProjectCard from "../ReusableComponents/ProjectCard";
 import LastStand from "../Modals/LastStand";
 import JanKenPon from "../Modals/JanKenPon";
 import VRHangouts from "./VRHangouts";
+import Spreecommerce from "./Spreecommerce";
 
 function ProjectsPage() {
   const [showModal, setShowModal] = useState(false);
@@ -31,9 +32,11 @@ function ProjectsPage() {
             <LastStand setModalShow={setShowModal} />
           ) : modalContentString === "jan-ken-pon" ? (
             <JanKenPon setModalShow={setShowModal} />
+          ) : modalContentString === "vr-hangouts" ? (
+            <VRHangouts setModalShow={setShowModal} />
           ) : (
-            modalContentString === "vr-hangouts" && (
-              <VRHangouts setModalShow={setShowModal} />
+            modalContentString === "spree-commerce" && (
+              <Spreecommerce setModalShow={setShowModal} />
             )
           )}
         </div>
@@ -94,6 +97,16 @@ function ProjectsPage() {
             <ProjectCard
               img={
                 process.env.PUBLIC_URL +
+                "/assets/images/thumbnails/VRHangouts.png"
+              }
+              title="VR Hangouts"
+              setShowModal={setShowModal}
+              setModalContentString={setModalContentString}
+              contentString={"vr-hangouts"}
+            />
+            <ProjectCard
+              img={
+                process.env.PUBLIC_URL +
                 "/assets/images/thumbnails/LastStandThumbnail.jpeg"
               }
               title="Last Stand"
@@ -114,12 +127,12 @@ function ProjectsPage() {
             <ProjectCard
               img={
                 process.env.PUBLIC_URL +
-                "/assets/images/thumbnails/VRHangouts.png"
+                "/assets/images/thumbnails/spreecommerce.png"
               }
-              title="VR Hangouts"
+              title="E-commerce Website"
               setShowModal={setShowModal}
               setModalContentString={setModalContentString}
-              contentString={"vr-hangouts"}
+              contentString={"spree-commerce"}
             />
           </div>
         </div>

@@ -72,7 +72,7 @@ function JanKenPon({ setModalShow }) {
           <img
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              "/assets/images/jankenpon/homescreen.jpeg"
             }
             className="project-sub-image-mobile"
           />
@@ -88,27 +88,6 @@ function JanKenPon({ setModalShow }) {
         </div>
         <div className="project-subtitles" style={{ color: "white" }}>
           <span>
-            <span style={{ color: "gray" }}>T</span>
-            utorial&nbsp;
-          </span>
-        </div>
-        <div className="project-sub-container">
-          <img
-            src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
-            }
-            className="project-sub-image-mobile"
-          />
-          <div className="project-sub-text" style={{ color: "white" }}>
-            The tutorial is in the form of a simple text message that flashes on
-            the screen for the first few moments of every game. This ensures
-            that the player does not have to memorize any controls, thus,
-            maintaining its hyper-casual nature.
-          </div>
-        </div>
-        <div className="project-subtitles" style={{ color: "white" }}>
-          <span>
             <span style={{ color: "gray" }}>C</span>
             ontrols&nbsp;
           </span>
@@ -116,8 +95,7 @@ function JanKenPon({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              process.env.PUBLIC_URL + "/assets/images/jankenpon/controls.jpeg"
             }
             className="project-sub-image-mobile"
           />
@@ -134,8 +112,7 @@ function JanKenPon({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              process.env.PUBLIC_URL + "/assets/images/jankenpon/controls.jpeg"
             }
             className="project-sub-image-mobile"
           />
@@ -158,8 +135,7 @@ function JanKenPon({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              process.env.PUBLIC_URL + "/assets/images/jankenpon/controls.jpeg"
             }
             className="project-sub-image-mobile"
           />
@@ -180,8 +156,7 @@ function JanKenPon({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              process.env.PUBLIC_URL + "/assets/images/jankenpon/gameover.jpeg"
             }
             className="project-sub-image-mobile"
           />

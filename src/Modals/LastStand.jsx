@@ -95,7 +95,7 @@ function LastStand({ setModalShow }) {
           <img
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              "/assets/images/laststand/homescreen.jpeg"
             }
             className="project-sub-image-mobile"
           />
@@ -115,8 +115,7 @@ function LastStand({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              process.env.PUBLIC_URL + "/assets/images/laststand/tutorial.jpeg"
             }
             className="project-sub-image-mobile"
           />
@@ -136,8 +135,7 @@ function LastStand({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              process.env.PUBLIC_URL + "/assets/images/laststand/controls.jpeg"
             }
             className="project-sub-image-mobile"
           />
@@ -157,7 +155,7 @@ function LastStand({ setModalShow }) {
           <img
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              "/assets/images/laststand/livesbrown.jpeg"
             }
             className="project-sub-image-mobile"
           />
@@ -176,7 +174,7 @@ function LastStand({ setModalShow }) {
           <img
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              "/assets/images/laststand/livesbrown.jpeg"
             }
             className="project-sub-image-mobile"
           />
@@ -199,8 +197,7 @@ function LastStand({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/assets/images/laststand/LastStandCutscene.gif"
+              process.env.PUBLIC_URL + "/assets/images/laststand/gameover.jpeg"
             }
             className="project-sub-image-mobile"
           />
