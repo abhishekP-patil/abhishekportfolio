@@ -58,6 +58,7 @@ function ProjectsPage() {
             display: "block",
           }}
         >
+          <div style={{ height: "80px" }} />
           <div
             style={{
               marginTop: "40px",

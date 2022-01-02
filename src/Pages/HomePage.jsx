@@ -24,6 +24,7 @@ function HomePage() {
           paddingBottom: "150px",
         }}
       >
+        <div style={{ height: "80px" }} />
         <div
           style={{
             marginTop: "5%",

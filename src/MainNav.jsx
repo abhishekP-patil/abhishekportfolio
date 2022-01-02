@@ -12,7 +12,8 @@ function MainNav({ currentPage, setCurrentPage }) {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        position: "sticky",
+        position: "fixed",
+        backgroundColor: "white",
       }}
     >
       <div
