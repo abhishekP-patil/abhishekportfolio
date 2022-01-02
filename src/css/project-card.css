@@ -1,0 +1,38 @@
+.project-card-container {
+  width: auto;
+  height: auto;
+  margin-left: 6.7%;
+  margin-right: 6.7%;
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.project-card-image {
+  width: 100%;
+  max-width: 550px;
+  margin-right: 6.7%;
+  height: 360px;
+  margin-top: 20px;
+  background-color: black;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.project-card-text-div {
+  align-self: center;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.05em;
+  text-decoration: underline;
+  text-decoration-color: #5a00ed;
+  text-align: center;
+}
+
+@media (max-width: 1035px) {
+  .project-card-text-div {
+    width: 100%;
+  }
+}

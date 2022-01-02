@@ -79,7 +79,6 @@
 
 .project-sub-text {
   align-self: center;
-  text-align: justify;
   width: 60%;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -87,7 +86,6 @@
 
 .project-sub-text-pc {
   align-self: center;
-  text-align: justify;
   width: 40%;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
