@@ -7,6 +7,8 @@ function ProjectCard({
   setShowModal,
   setModalContentString,
   contentString,
+  intro,
+  tech,
 }) {
   return (
     <>
@@ -18,7 +20,13 @@ function ProjectCard({
         }}
       >
         <img src={img} className="project-card-image" />
-        <div className="project-card-text-div">{title}</div>
+        <div className="project-card-text-div">
+          <div className="project-card-title">{title}</div>
+          <br />
+          <span className="project-card-intro">{intro}</span>
+          <br />
+          <span className="project-card-tech">{tech}</span>
+        </div>
       </div>
     </>
   );

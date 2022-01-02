@@ -22,17 +22,47 @@
 
 .project-card-text-div {
   align-self: center;
-  font-weight: bold;
+  text-align: left;
+  max-width: 40%;
+}
+
+.project-card-title {
   font-size: 45px;
+  font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 0.05em;
   text-decoration: underline;
   text-decoration-color: #5a00ed;
-  text-align: center;
 }
 
-@media (max-width: 1035px) {
+.project-card-intro {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin-top: 0px;
+}
+
+.project-card-tech {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #5a00ed;
+  margin-top: 0px;
+}
+
+@media (max-width: 1190px) {
   .project-card-text-div {
+    max-width: 100%;
     width: 100%;
+  }
+  .project-card-title {
+    width: 100%;
+    text-align: center;
+  }
+  .project-card-image {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

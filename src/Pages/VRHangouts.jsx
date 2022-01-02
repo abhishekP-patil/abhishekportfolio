@@ -191,7 +191,7 @@ function VRHangouts({ setModalShow }) {
           <img
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/vrhangouts/homescreen.png"
+              "/assets/images/vrhangouts/gifs/homescreen.gif"
             }
             className="project-sub-image-pc"
           />
@@ -206,7 +206,7 @@ function VRHangouts({ setModalShow }) {
           <img
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/vrhangouts/roomcreationmenu.png"
+              "/assets/images/vrhangouts/gifs/roomcreation.gif"
             }
             className="project-sub-image-pc"
           />
@@ -221,7 +221,7 @@ function VRHangouts({ setModalShow }) {
           <img
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/vrhangouts/startingmeetingmenu.png"
+              "/assets/images/vrhangouts/gifs/playerjoining.gif"
             }
             className="project-sub-image-pc"
           />
@@ -235,7 +235,7 @@ function VRHangouts({ setModalShow }) {
           <img
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/vrhangouts/joiningmeeting.png"
+              "/assets/images/vrhangouts/gifs/roomjoining.gif"
             }
             className="project-sub-image-pc"
           />
@@ -323,7 +323,7 @@ function VRHangouts({ setModalShow }) {
           <img
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/vrhangouts/bodycustomization.png"
+              "/assets/images/vrhangouts/gifs/avatarcustomization.gif"
             }
             className="project-sub-image-pc"
           />
@@ -340,7 +340,7 @@ function VRHangouts({ setModalShow }) {
           <img
             src={
               process.env.PUBLIC_URL +
-              "/assets/images/vrhangouts/wardrobecustomization.png"
+              "/assets/images/vrhangouts/gifs/wardrobecustomization.gif"
             }
             className="project-sub-image-pc"
           />
@@ -399,7 +399,9 @@ function VRHangouts({ setModalShow }) {
         </div>
         <div className="project-sub-container">
           <img
-            src={process.env.PUBLIC_URL + "/assets/images/vrhangouts/map1.png"}
+            src={
+              process.env.PUBLIC_URL + "/assets/images/vrhangouts/gifs/map1.gif"
+            }
             className="project-sub-image-pc"
           />
           <div className="project-sub-text-pc" style={{ color: "black" }}>
@@ -410,7 +412,9 @@ function VRHangouts({ setModalShow }) {
         </div>
         <div className="project-sub-container">
           <img
-            src={process.env.PUBLIC_URL + "/assets/images/vrhangouts/map2.png"}
+            src={
+              process.env.PUBLIC_URL + "/assets/images/vrhangouts/gifs/map2.gif"
+            }
             className="project-sub-image-pc"
           />
           <div className="project-sub-text-pc" style={{ color: "black" }}>
@@ -421,7 +425,7 @@ function VRHangouts({ setModalShow }) {
         </div>
         <div className="project-sub-container">
           <img
-            src={process.env.PUBLIC_URL + "/assets/images/vrhangouts/map1.png"}
+            src={process.env.PUBLIC_URL + "/assets/images/vrhangouts/map3.png"}
             className="project-sub-image-pc"
           />
           <div className="project-sub-text-pc" style={{ color: "black" }}>
@@ -456,7 +460,10 @@ function VRHangouts({ setModalShow }) {
         </div>
         <div className="project-sub-container">
           <img
-            src={process.env.PUBLIC_URL + "/assets/images/vrhangouts/map1.png"}
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/vrhangouts/gifs/waypoint.gif"
+            }
             className="project-sub-image-pc"
           />
           <div className="project-sub-text-pc" style={{ color: "black" }}>
@@ -504,7 +511,8 @@ function VRHangouts({ setModalShow }) {
         <div className="project-sub-container">
           <img
             src={
-              process.env.PUBLIC_URL + "/assets/images/vrhangouts/tictactoe.png"
+              process.env.PUBLIC_URL +
+              "/assets/images/vrhangouts//gifs/tictactoe.gif"
             }
             className="project-sub-image-pc"
           />
@@ -519,7 +527,9 @@ function VRHangouts({ setModalShow }) {
         </div>
         <div className="project-sub-container">
           <img
-            src={process.env.PUBLIC_URL + "/assets/images/vrhangouts/map2.png"}
+            src={
+              process.env.PUBLIC_URL + "/assets/images/vrhangouts/gifs/door.gif"
+            }
             className="project-sub-image-pc"
           />
           <div className="project-sub-text-pc" style={{ color: "black" }}>

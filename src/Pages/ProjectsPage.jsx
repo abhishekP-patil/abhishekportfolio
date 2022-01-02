@@ -56,6 +56,7 @@ function ProjectsPage() {
             maxWidth: "1440px",
             height: "100%",
             display: "block",
+            paddingBottom: "150px",
           }}
         >
           <div style={{ height: "80px" }} />
@@ -67,7 +68,10 @@ function ProjectsPage() {
               display: "block",
             }}
           >
-            <div className="heading-div" style={{ fontSize: "60px" }}>
+            <div
+              className="heading-div"
+              style={{ fontSize: "60px", marginLeft: "6.7%" }}
+            >
               <span>
                 <span style={{ color: "#5A00ED" }}> M</span>
                 y&nbsp;
@@ -79,7 +83,11 @@ function ProjectsPage() {
             </div>
             <div
               className="text-div"
-              style={{ marginTop: "10px", fontSize: "20px" }}
+              style={{
+                marginTop: "10px",
+                fontSize: "20px",
+                marginLeft: "6.7%",
+              }}
             >
               Throughout my B.Tech Computer Engineering program I have worked on
               a variety of projects in the fields of&nbsp;
@@ -98,9 +106,11 @@ function ProjectsPage() {
             <ProjectCard
               img={
                 process.env.PUBLIC_URL +
-                "/assets/images/vrhangouts/roomcreationmenu.png"
+                "/assets/images/thumbnails/VRHangouts.png"
               }
               title="VR Hangouts"
+              intro="A virtual reality, realtime meeting application."
+              tech="Unity3D, Google Cardboard, Photon PUN 2, Unity Multipurpose Avatars"
               setShowModal={setShowModal}
               setModalContentString={setModalContentString}
               contentString={"vr-hangouts"}
@@ -111,6 +121,8 @@ function ProjectsPage() {
                 "/assets/images/thumbnails/LastStandThumbnail.jpeg"
               }
               title="Last Stand"
+              intro="A 2D hyper-casual mobile game about saving the earth from asteroids."
+              tech="Unity3D, Adobe Photoshop"
               setShowModal={setShowModal}
               setModalContentString={setModalContentString}
               contentString={"last-stand"}
@@ -121,6 +133,8 @@ function ProjectsPage() {
                 "/assets/images/thumbnails/JKPThumb.jpeg"
               }
               title="Jan Ken Pon"
+              intro="A 2D hyper-casual mobile game based on rock-paper-scissors."
+              tech="Unity3D, Adobe Photoshop"
               setShowModal={setShowModal}
               setModalContentString={setModalContentString}
               contentString={"jan-ken-pon"}
@@ -131,6 +145,8 @@ function ProjectsPage() {
                 "/assets/images/thumbnails/spreecommerce.png"
               }
               title="E-commerce Website"
+              intro="An e-commerce website developed for International Week Hackathon at Hof University of Applied Sciences. It won the highest grade."
+              tech="ReactJS, HTML, CSS, Fastify, MongoDB"
               setShowModal={setShowModal}
               setModalContentString={setModalContentString}
               contentString={"spree-commerce"}
