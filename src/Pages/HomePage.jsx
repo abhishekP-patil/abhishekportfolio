@@ -126,7 +126,7 @@ function HomePage() {
             <br />
             <span>
               I am also a linguaphile and enjoy learning new languages as I feel
-              they act as windows to their respective cultures. I am fluent at
+              they act as windows to their respective cultures. I am fluent at{" "}
               <span style={{ color: "#5A00ED" }}>
                 English, Marathi and Hindi
               </span>
