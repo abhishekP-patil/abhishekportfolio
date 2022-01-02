@@ -14,6 +14,7 @@ function MainNav({ currentPage, setCurrentPage }) {
         justifyContent: "center",
         position: "fixed",
         backgroundColor: "white",
+        zIndex: "10",
       }}
     >
       <div
