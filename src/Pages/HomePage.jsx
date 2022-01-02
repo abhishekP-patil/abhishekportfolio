@@ -81,7 +81,6 @@ function HomePage() {
             color: "#5A00ED",
             fontSize: "50px",
             opacity: "0.3",
-            zIndex: "-1",
           }}
         >
           <p>
