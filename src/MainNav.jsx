@@ -34,53 +34,51 @@ function MainNav({ currentPage, setCurrentPage }) {
         >
           ABHISHEK PATIL
         </div>
-        <Link to="/projects" style={{ textDecoration: "none" }}>
+        {/* <Link to="/projects" style={{ textDecoration: "none" }}> */}
+        <div
+          className="nav-element"
+          style={{
+            marginRight: "60px",
+            color: `${
+              currentPage === "abhishekportfolio/projects" ? "black" : "#5A00ED"
+            }`,
+          }}
+          onClick={() => setCurrentPage("abhishekportfolio/projects")}
+        >
+          PROJECTS
           <div
-            className="nav-element"
+            className="nav-black-bar"
             style={{
-              marginRight: "60px",
-              color: `${
+              visibility: `${
                 currentPage === "abhishekportfolio/projects"
-                  ? "black"
-                  : "#5A00ED"
+                  ? "visible"
+                  : "hidden"
               }`,
             }}
-            onClick={() => setCurrentPage("abhishekportfolio/projects")}
-          >
-            PROJECTS
-            <div
-              className="nav-black-bar"
-              style={{
-                visibility: `${
-                  currentPage === "abhishekportfolio/projects"
-                    ? "visible"
-                    : "hidden"
-                }`,
-              }}
-            />
-          </div>
-        </Link>
-        <Link to="/" style={{ textDecoration: "none" }}>
+          />
+        </div>
+        {/* </Link>
+        <Link to="/" style={{ textDecoration: "none" }}> */}
+        <div
+          className="nav-element"
+          style={{
+            color: `${
+              currentPage === "/abhishekportfolio" ? "black" : "#5A00ED"
+            }`,
+          }}
+          onClick={() => setCurrentPage("/abhishekportfolio")}
+        >
+          ABOUT
           <div
-            className="nav-element"
+            className="nav-black-bar"
             style={{
-              color: `${
-                currentPage === "/abhishekportfolio" ? "black" : "#5A00ED"
+              visibility: `${
+                currentPage === "/abhishekportfolio" ? "visible" : "hidden"
               }`,
             }}
-            onClick={() => setCurrentPage("/abhishekportfolio")}
-          >
-            ABOUT
-            <div
-              className="nav-black-bar"
-              style={{
-                visibility: `${
-                  currentPage === "/abhishekportfolio" ? "visible" : "hidden"
-                }`,
-              }}
-            />
-          </div>
-        </Link>
+          />
+        </div>
+        {/* </Link> */}
         <a
           className="nav-element"
           href={process.env.PUBLIC_URL + "/assets/pdfs/AbhishekPPatilCV.pdf"}
