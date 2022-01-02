@@ -78,7 +78,7 @@ function ProjectsPage() {
               style={{ marginTop: "10px", fontSize: "20px" }}
             >
               Throughout my B.Tech Computer Engineering program I have worked on
-              a variety of projects from in the fields of&nbsp;
+              a variety of projects in the fields of&nbsp;
               <span style={{ color: "#5A00ED" }}>videogame</span>
               ,&nbsp;
               <span style={{ color: "#5A00ED" }}>mobile application</span>

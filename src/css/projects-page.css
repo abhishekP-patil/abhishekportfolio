@@ -23,6 +23,13 @@
   border: none !important;
 }
 
+.modal-close-icon-container {
+  margin-left: auto;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
 .modal-backdrop {
   background-color: rebeccapurple !important;
 }

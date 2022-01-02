@@ -26,12 +26,9 @@ function JanKenPon({ setModalShow }) {
           </span>
         </div>
         <div
+          className="modal-close-icon-container"
           style={{
-            marginLeft: "auto",
             color: "white",
-            position: "absolute",
-            top: "20px",
-            right: "20px",
           }}
         >
           <h3 onClick={() => setModalShow(false)} style={{ cursor: "pointer" }}>
@@ -52,7 +49,7 @@ function JanKenPon({ setModalShow }) {
           </span>
           <br />
           <span className="role-duration-key" style={{ color: "grey" }}>
-            Duration :&nbsp;
+            Time Frame :&nbsp;
           </span>
           <span className="role-duration-value" style={{ color: "white" }}>
             &nbsp;June 2019

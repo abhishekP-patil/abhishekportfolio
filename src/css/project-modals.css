@@ -5,8 +5,6 @@
 }
 
 .introduction {
-  margin-left: 6.5%;
-  margin-right: 6.5%;
   display: flex;
   flex-wrap: wrap;
   width: auto;
@@ -16,15 +14,29 @@
   font-size: 20px;
 }
 
+.image-subtext {
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.image-center {
+  width: 70%;
+  height: auto;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 500px;
+}
+
 .role-duration-key {
-  margin-left: 6.5%;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   letter-spacing: 0.05rem;
 }
 
 .role-duration-value {
-  margin-right: 6.5%;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   letter-spacing: 0.05rem;
@@ -32,8 +44,6 @@
 }
 
 .project-subtitles {
-  margin-left: 6.7%;
-  margin-right: 6.7%;
   margin-top: 25px;
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 0.05em;
@@ -46,25 +56,39 @@
 .project-sub-container {
   width: auto;
   height: auto;
-  margin-left: 6.7%;
-  margin-right: 6.7%;
   display: flex;
   margin-top: 10px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .project-sub-image-mobile {
   width: 100%;
   max-width: 360px;
-  margin-right: 6.7%;
   height: 800px;
   margin-bottom: 20px;
+}
+
+.project-sub-image-pc {
+  width: 50%;
+  height: auto;
+  min-width: 500px;
+  margin-bottom: 20px;
+  margin-right: 4%;
 }
 
 .project-sub-text {
   align-self: center;
   text-align: justify;
-  width: 50%;
+  width: 60%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.project-sub-text-pc {
+  align-self: center;
+  text-align: justify;
+  width: 40%;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
@@ -78,14 +102,21 @@
   height: 100%;
   border-radius: 50px 50px 0px 0px;
   padding-top: 50px;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+  padding-bottom: 50px;
 }
 
 div::-webkit-scrollbar {
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1035px) {
   .project-sub-text {
+    width: 100%;
+  }
+
+  .project-sub-text-pc {
     width: 100%;
   }
 
@@ -96,5 +127,31 @@ div::-webkit-scrollbar {
   .project-sub-image-mobile {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .project-sub-image-pc {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 450px;
+  }
+
+  .image-center {
+    min-width: 450px;
+  }
+
+  .project-sub-image-pc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-sub-image-pc {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+  }
+  .image-center {
+    min-width: 350px;
   }
 }
