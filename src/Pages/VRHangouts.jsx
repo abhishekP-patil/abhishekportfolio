@@ -148,13 +148,18 @@ function VRHangouts({ setModalShow }) {
             <br />
           </span>
           <span>
-            <span style={{ color: "#5a00ed" }}>Photon PUN2&nbsp;</span>A plugin
-            that is used for multiplayer room creation.
+            <span style={{ color: "#5a00ed" }}>Photon PUN2 :&nbsp;</span>A
+            plugin that is used for multiplayer room creation.
           </span>
           <br />
+        </div>
+        <div
+          className="introduction"
+          style={{ color: "black", marginTop: "0px" }}
+        >
           <span>
-            <span style={{ color: "#5a00ed" }}>UMA&nbsp;</span>A plugin that is
-            used for 3D avatar generation.
+            <span style={{ color: "#5a00ed" }}>UMA :&nbsp;</span>A plugin that
+            is used for 3D avatar generation.
           </span>
         </div>
         <div className="project-subtitles" style={{ color: "black" }}>
