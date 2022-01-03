@@ -57,6 +57,7 @@ function ProjectsPage() {
             height: "100%",
             display: "block",
             paddingBottom: "150px",
+            overflowX: "hidden",
           }}
         >
           <div style={{ height: "80px" }} />

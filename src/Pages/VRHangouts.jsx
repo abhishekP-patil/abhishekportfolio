@@ -569,6 +569,7 @@ function VRHangouts({ setModalShow }) {
           <span>
             <span style={{ color: "#5a00ed" }}>3.&nbsp;</span>Including more
             social interactivity with more minigames.
+            <br />
           </span>
           <span>
             <span style={{ color: "#5a00ed" }}>4.&nbsp;</span>Making the
