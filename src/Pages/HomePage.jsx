@@ -129,10 +129,11 @@ function HomePage() {
               they act as windows to their respective cultures. I am fluent at{" "}
               <span style={{ color: "#5A00ED" }}>
                 English, Marathi and Hindi
-              </span>
-              . I am also currently pursuing the third level (JLPT N3) of{" "}
+              </span>{" "}
+              I am also actively learning German and Japanese.
+              {/* . I am also currently pursuing the third level (JLPT N3) of{" "}
               <span style={{ color: "#5A00ED" }}>Japanese</span> and the second
-              level (A2) of <span style={{ color: "#5A00ED" }}>German</span>.
+              level (A2) of <span style={{ color: "#5A00ED" }}>German</span>. */}
             </span>
             <br />
             <a
