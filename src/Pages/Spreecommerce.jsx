@@ -72,6 +72,16 @@ function Spreecommerce({ setModalShow }) {
           </span>
           <span className="role-duration-value" style={{ color: "black" }}>
             &nbsp;
+            <span>
+              Max Kruggel (Frontend - Navbar, Login, Registration, Add to Cart)
+            </span>
+            <br />
+            <span>Oleksandr Koehn (Backend)</span>
+            <br />
+            <span>Leander Steiner (Backend)</span>
+            <br />
+            <span>Harsh Siriah (Backend)</span>
+            <br />
           </span>
         </div>
         <div className="project-subtitles" style={{ color: "black" }}>

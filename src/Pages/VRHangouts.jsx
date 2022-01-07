@@ -62,7 +62,7 @@ function VRHangouts({ setModalShow }) {
           </span>
           <span className="role-duration-value" style={{ color: "black" }}>
             &nbsp;Harsh Siriah (Designer, Software Architect, Programmer (Voice
-            Chat primary)
+            Chat primary))
           </span>
         </div>
         <div className="project-subtitles" style={{ color: "black" }}>
