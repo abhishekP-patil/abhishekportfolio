@@ -143,6 +143,11 @@ div::-webkit-scrollbar {
   }
 }
 
+.text-link:hover {
+  color: #bbe24a !important;
+  text-decoration-color: #bbe24a;
+}
+
 @media (max-width: 500px) {
   .project-sub-image-pc {
     margin-left: auto;
