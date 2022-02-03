@@ -9,6 +9,11 @@
   cursor: pointer;
 }
 
+div.project-card-container:hover {
+  text-decoration: underline;
+  text-decoration-color: #5a00ed;
+}
+
 .project-card-image {
   width: 100%;
   max-width: 550px;
@@ -31,8 +36,6 @@
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 0.05em;
-  text-decoration: underline;
-  text-decoration-color: #5a00ed;
 }
 
 .project-card-intro {
