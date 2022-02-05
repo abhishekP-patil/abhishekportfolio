@@ -64,7 +64,7 @@ function Spreecommerce({ setModalShow }) {
             Time Frame :&nbsp;
           </span>
           <span className="role-duration-value" style={{ color: "black" }}>
-            &nbsp;Spring 2020
+            &nbsp;Spring 2021
           </span>
           <br />
           <span className="role-duration-key" style={{ color: "#5a00ed" }}>
