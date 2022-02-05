@@ -317,6 +317,84 @@ function SandwichApp({ setModalShow }) {
             }}
           />
         </div>
+        <div className="project-subtitles" style={{ color: "black" }}>
+          <span>
+            <span style={{ color: "#BBE24A" }}>L</span>
+            ow&nbsp;
+          </span>
+          <span>
+            <span style={{ color: "#BBE24A" }}>F</span>
+            idelity&nbsp;
+          </span>
+          <span>
+            <span style={{ color: "#BBE24A" }}>W</span>
+            ireframes&nbsp;
+          </span>
+        </div>
+        <div className="project-sub-container">
+          <img
+            className="image-center"
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/sandwichapp/wireframes/categoriescarousel.png"
+            }
+            style={{
+              width: "80%",
+            }}
+          />
+          <br />
+          <div className="image-subtext" style={{ color: "#BBE24A" }}>
+            Categories Carousel Toggle
+          </div>
+        </div>
+        <div className="project-sub-container">
+          <img
+            className="image-center"
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/sandwichapp/wireframes/applygoals.png"
+            }
+            style={{
+              width: "80%",
+            }}
+          />
+          <br />
+          <div className="image-subtext" style={{ color: "#BBE24A" }}>
+            Customizing Recommendations with Personal Goals
+          </div>
+        </div>
+        <div className="project-sub-container">
+          <img
+            className="image-center"
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/sandwichapp/wireframes/sandwichbuilder.png"
+            }
+            style={{
+              width: "80%",
+            }}
+          />
+          <br />
+          <div className="image-subtext" style={{ color: "#BBE24A" }}>
+            Building your own sandwich (nutritional values will be color coded)
+          </div>
+        </div>
+        <div className="project-sub-container">
+          <img
+            className="image-center"
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/sandwichapp/wireframes/deliveryflow.png"
+            }
+            style={{
+              width: "80%",
+            }}
+          />
+          <br />
+          <div className="image-subtext" style={{ color: "#BBE24A" }}>
+            Delivery Flow
+          </div>
+        </div>
       </div>
     </>
   );
