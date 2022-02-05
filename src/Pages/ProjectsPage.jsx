@@ -122,6 +122,18 @@ function ProjectsPage() {
             <ProjectCard
               img={
                 process.env.PUBLIC_URL +
+                "/assets/images/thumbnails/sandwich3.png"
+              }
+              title="Nutrition App for Sandwich Shop"
+              intro="A UX design project being completed as an assignment for the Google UX design course on Coursera. This project is ONGOING."
+              tech="Figma"
+              setShowModal={setShowModal}
+              setModalContentString={setModalContentString}
+              contentString={"sandwich-app"}
+            />
+            <ProjectCard
+              img={
+                process.env.PUBLIC_URL +
                 "/assets/images/thumbnails/LastStandThumbnail.jpeg"
               }
               title="Last Stand"
@@ -154,18 +166,6 @@ function ProjectsPage() {
               setShowModal={setShowModal}
               setModalContentString={setModalContentString}
               contentString={"spree-commerce"}
-            />
-            <ProjectCard
-              img={
-                process.env.PUBLIC_URL +
-                "/assets/images/thumbnails/sandwich3.png"
-              }
-              title="Nutrition App for Sandwich Shop"
-              intro="A UX design project being completed as an assignment for the Google UX design course on Coursera. This project is ONGOING."
-              tech="Figma"
-              setShowModal={setShowModal}
-              setModalContentString={setModalContentString}
-              contentString={"sandwich-app"}
             />
           </div>
         </div>
