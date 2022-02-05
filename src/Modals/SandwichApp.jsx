@@ -395,6 +395,38 @@ function SandwichApp({ setModalShow }) {
             Delivery Flow
           </div>
         </div>
+        <div className="project-sub-container">
+          <img
+            className="image-center"
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/sandwichapp/wireframes/inrestaurantflow.png"
+            }
+            style={{
+              width: "80%",
+            }}
+          />
+          <br />
+          <div className="image-subtext" style={{ color: "#BBE24A" }}>
+            Ordering from a Table in the Restaurant Flow
+          </div>
+        </div>
+        <div className="project-sub-container">
+          <img
+            className="image-center"
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/sandwichapp/wireframes/pickupflow.png"
+            }
+            style={{
+              width: "80%",
+            }}
+          />
+          <br />
+          <div className="image-subtext" style={{ color: "#BBE24A" }}>
+            Scheduling Pickup Flow
+          </div>
+        </div>
       </div>
     </>
   );
