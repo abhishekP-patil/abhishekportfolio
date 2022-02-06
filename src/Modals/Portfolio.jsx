@@ -49,7 +49,7 @@ function Portfolio({ setModalShow }) {
             Time Frame :&nbsp;
           </span>
           <span className="role-duration-value" style={{ color: "black" }}>
-            &nbsp;Winter 2022
+            &nbsp;Winter 2021
           </span>
           <br />
           <span className="role-duration-key" style={{ color: "#5a00ed" }}>
