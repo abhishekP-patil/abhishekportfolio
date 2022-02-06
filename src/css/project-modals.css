@@ -31,21 +31,20 @@
 }
 
 .role-duration-key {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   letter-spacing: 0.05rem;
 }
 
 .role-duration-value {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   letter-spacing: 0.05rem;
-  font-weight: bolder;
 }
 
 .project-subtitles {
   margin-top: 25px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 0.05em;
   font-size: 50px;
   width: 100%;

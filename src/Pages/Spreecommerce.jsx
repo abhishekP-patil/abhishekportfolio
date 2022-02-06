@@ -1,5 +1,6 @@
 import React from "react";
 import { ImCross } from "react-icons/im";
+import { FaGithub } from "react-icons/fa";
 import "../css/project-modals.css";
 
 function Spreecommerce({ setModalShow }) {
@@ -45,6 +46,13 @@ function Spreecommerce({ setModalShow }) {
             <ImCross />
           </h3>
         </div>
+        <a
+          href="https://github.com/abhishekP-patil/ITW21Hackathon-Spreecommerce"
+          target="_blank"
+          style={{ color: "#5A00ED", fontSize: "30px" }}
+        >
+          <FaGithub />
+        </a>
         <div className="introduction" style={{ color: "#5a00ed" }}>
           This project was created as a part of Hof University of Applied
           Science's International Week 2021 Web Development Hackathon. It won
