@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../css/home-page.css";
 import { IoIosArrowDown } from "react-icons/io";
 import { FaLinkedinIn, FaLinkedin } from "react-icons/fa";
 
 function HomePage() {
+  const linkedIn = useRef(null);
   return (
     <div
       style={{
@@ -83,7 +84,14 @@ function HomePage() {
             opacity: "0.3",
           }}
         >
-          <p>
+          <p
+            style={{ cursor: "pointer" }}
+            onClick={() =>
+              linkedIn.current.scrollIntoView({
+                behavior: "smooth",
+              })
+            }
+          >
             <IoIosArrowDown />
           </p>
         </div>
@@ -137,6 +145,7 @@ function HomePage() {
             <br />
             <a
               href="https://www.linkedin.com/in/abhishek-patil-og/"
+              ref={linkedIn}
               target="_blank"
               style={{ color: "#5A00ED", fontSize: "30px" }}
             >
