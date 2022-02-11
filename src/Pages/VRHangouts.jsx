@@ -187,6 +187,21 @@ function VRHangouts({ setModalShow }) {
             eetings&nbsp;
           </span>
         </div>
+        <div
+          className="introduction"
+          style={{ color: "black", marginTop: "0px" }}
+        >
+          <span>
+            The users can choose their own nickname, choose room size and choose
+            an environment and instantly create a meeting with a unique code.
+            For joining the meeting, all other participants need to do is choose
+            a nickname and enter the unique code.{" "}
+            <span style={{ color: "#5a00ed" }}>
+              The process was intentionally kept simple and it was ensured that
+              least amount of steps need to be taken to get into a meeting.
+            </span>
+          </span>
+        </div>
         <div className="project-sub-container">
           <img
             src={
@@ -246,22 +261,6 @@ function VRHangouts({ setModalShow }) {
             <br />
             Participants need to enter the unique code to join the meeting.
           </div>
-          <div
-            className="introduction"
-            style={{ color: "black", marginTop: "0px" }}
-          >
-            <span>
-              The users can choose their own nickname, choose room size and
-              choose an environment and instantly create a meeting with a unique
-              code. For joining the meeting, all other participants need to do
-              is choose a nickname and enter the unique code.{" "}
-              <span style={{ color: "#5a00ed" }}>
-                The process was intentionally kept simple and it was ensured
-                that least amount of steps need to be taken to get into a
-                meeting.
-              </span>
-            </span>
-          </div>
           <div className="project-sub-container">
             <img
               className="image-center"
@@ -318,6 +317,20 @@ function VRHangouts({ setModalShow }) {
               ustomization&nbsp;
             </span>
           </div>
+        </div>
+        <div
+          className="introduction"
+          style={{ color: "black", marginTop: "0px" }}
+        >
+          <span>
+            The users can choose between three 3D virtual environments.
+            <span style={{ color: "#5a00ed" }}>
+              This was done to aid immersion as different people have different
+              definitions of an ideal meeting place. It also opens opportunities
+              for adding outlandish environments that would not be possible or
+              practical in the real world.
+            </span>
+          </span>
         </div>
         <div className="project-sub-container">
           <img
@@ -381,20 +394,6 @@ function VRHangouts({ setModalShow }) {
           <span>
             <span style={{ color: "#5a00ed" }}>M</span>
             aps&nbsp;
-          </span>
-        </div>
-        <div
-          className="introduction"
-          style={{ color: "black", marginTop: "0px" }}
-        >
-          <span>
-            The users can choose between three 3D virtual environments.
-            <span style={{ color: "#5a00ed" }}>
-              This was done to aid immersion as different people have different
-              definitions of an ideal meeting place. It also opens opportunities
-              for adding outlandish environments that would not be possible or
-              practical in the real world.
-            </span>
           </span>
         </div>
         <div className="project-sub-container">
