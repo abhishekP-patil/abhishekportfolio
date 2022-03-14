@@ -19,11 +19,11 @@ function SandwichApp({ setModalShow }) {
           </span>
           <span>
             <span style={{ color: "#BBE24A" }}>S</span>
-            tore
+            tore&nbsp;
           </span>
           <span>
             <span style={{ color: "#BBE24A" }}>N</span>
-            utrition
+            utrition&nbsp;
           </span>
           <span>
             <span style={{ color: "#BBE24A" }}>A</span>
