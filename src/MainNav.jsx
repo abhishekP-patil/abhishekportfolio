@@ -8,7 +8,7 @@ function MainNav({ currentPage, setCurrentPage }) {
     <div
       style={{
         width: "100%",
-        height: "80px",
+        height: "70px",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
