@@ -323,12 +323,11 @@ function VRHangouts({ setModalShow }) {
           style={{ color: "black", marginTop: "0px" }}
         >
           <span>
-            The users can choose between three 3D virtual environments.
+            The users have vast range of options to create a variety of unique
+            looks
             <span style={{ color: "#5a00ed" }}>
-              This was done to aid immersion as different people have different
-              definitions of an ideal meeting place. It also opens opportunities
-              for adding outlandish environments that would not be possible or
-              practical in the real world.
+              This has been added to boost user engagement by allowing users to
+              better express and represent themselves.
             </span>
           </span>
         </div>
@@ -365,19 +364,6 @@ function VRHangouts({ setModalShow }) {
             Users can also customize their wardrobe with preset clothing
             options.
           </div>
-          <div
-            className="introduction"
-            style={{ color: "black", marginTop: "0px" }}
-          >
-            <span>
-              The users have vast range of options to create a variety of unique
-              looks
-              <span style={{ color: "#5a00ed" }}>
-                This has been added to boost user engagement by allowing users
-                to better express and represent themselves.
-              </span>
-            </span>
-          </div>
           <img
             className="image-center"
             src={
@@ -394,6 +380,20 @@ function VRHangouts({ setModalShow }) {
           <span>
             <span style={{ color: "#5a00ed" }}>M</span>
             aps&nbsp;
+          </span>
+        </div>
+        <div
+          className="introduction"
+          style={{ color: "black", marginTop: "0px" }}
+        >
+          <span>
+            The users can choose between three 3D virtual environments.
+            <span style={{ color: "#5a00ed" }}>
+              This was done to aid immersion as different people have different
+              definitions of an ideal meeting place. It also opens opportunities
+              for adding outlandish environments that would not be possible or
+              practical in the real world.
+            </span>
           </span>
         </div>
         <div className="project-sub-container">
