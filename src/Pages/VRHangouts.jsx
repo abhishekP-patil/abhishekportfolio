@@ -33,10 +33,10 @@ function VRHangouts({ setModalShow }) {
           </h3>
         </div>
         <div className="introduction" style={{ color: "#5a00ed" }}>
-          During the peak of the Covid-19 pandemic, when all professional and
-          casual meetings had to be held through video calling applications,
-          however a shortcoming of video based technologies is that they can
-          lack immersion. I focused my B.Tech project on remedying this issue by
+          During the peak of the Covid-19 pandemic, all professional and casual
+          meetings had to be held through video calling applications. However, a
+          shortcoming of video based technologies is that they can lack
+          immersion. I focused my B.Tech project on remedying this issue by
           using Virtual Reality, 3D Avatar Customisation and voice chat for
           providing users with interactive 3D environments for hosting their
           meetings.
